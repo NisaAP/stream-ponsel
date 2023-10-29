@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-import sklearn
 
 #baca model
 model = pickle.load(open('estimasi_ponsel.sav','rb'))
