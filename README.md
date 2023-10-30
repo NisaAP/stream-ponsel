@@ -175,7 +175,7 @@ pickle.dump(lr,open(filename,'wb'))
 Pada kasus regresi ini saya menggunakan metrik evaluasi **RMSE dan R2 Score**
 - RMSE merupakan salah satu cara untuk mengevaluasi model regresi linear dengan mengukur tingkat akurasi hasil perkiraan suatu model.RMSE juga merupakan kriteria penting dalam memilih model berperforma terbaik di antara model peramalan berbeda.
 
-    Rumus : 
+    Rumus :<br>
     RMSE = sqrt((1/n) * Σ|i=1|^n (y_i - ŷ_i)^2)
 <br>Di mana:
 
