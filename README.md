@@ -91,7 +91,7 @@ coaba kita cek nilai yang kosong dalam pada dataset ini menggunakan heatmap
 ```bash
 sns.heatmap(df.isnull())
 ```
-![gambar](img/1.png)
+![gambar](1.png)
 oke tidak ada yang kosong
 untuk berjaga-jaga mari kita check apakah terdapat duplicate data di datasets kita,
 ```bash
@@ -106,14 +106,14 @@ Kita gambarkan visualisasi heatmap untuk melihat sebarand data pada dataset ini.
 plt.figure(figsize=(12,8))
 sns.heatmap(df.corr(),annot=True)
 ```
-![gambar](img/2.png)
+![gambar](2.png)
 kita melihat data yang kita harapkan. Harga berkorelasi positif dengan ram, PPI (Piksel per inci), Memori internal, kamera belakang, frekuensi_cpu, inti_cpu, kamera_depan, dan baterai.
 
 Kita perlu melihat apakah ada outlier dalam data harga
 ```bash
 px.box(df, x='Price')
 ```
-![gambar](img/3.png)
+![gambar](3.png)
 Terdapat outlier sehingga kita harus menghapusnya dari dataset dengan script berikut
 ```bash
 out = list(np.where(df['Price']>3837))
@@ -205,4 +205,4 @@ Dengan nilai R² yang tinggi (0.9585600980182332) dan RMSE yang rendah (160.4045
 ## Deployment
 [My App Estimasi Ponsel](https://stream-ponsel-mus9jfssjsjjzhoqcnnlym.streamlit.app/)
 
-![gambar](img/deploy.png)
+![gambar](deploy.png)
