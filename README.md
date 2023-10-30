@@ -27,12 +27,13 @@ Dalam proyek ini dataset yang digunakan berasal dari kaggle yang berisi data har
 
 Adapun variabel didalam datasets ini semuanya bertype data numeric 
 ### Variabel-variabel pada Mobile Price Prediction adalah sebagai berikut:
+- Price : merupakan harga ponsel
 - resoloution : merupakan resolusi dari ponsel
 - ppi         : merupakan kepadatan ponsel dalam bentuk pixel
 - cpu core    : merupakan jenis inti cpu disetiap ponsel
 - cpu freq    : merupakan frekuensi cpu disetiap ponsel
 - internal mem : merupakan kapasitas memory internal pada ponsel
-- ram : Merupakan kapasitas RAM dalam bentuk GB 
+- ram : merupakan jumlah kapasitas RAM dalam bentuk GB 
 - RearCam : Merupakan ukuran kamera belakang dalam bentuk MP
 - Front_Cam :  Merupakan ukuran kamera depan dalam bentuk MP
 - battery : merupakan kapasitas battery pada ponsel dalam bentuk mAh
