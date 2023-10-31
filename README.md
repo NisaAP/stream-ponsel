@@ -111,6 +111,14 @@ for i in df.iloc[:,:-1].columns:
 plt.show()
 ```
 ![gambar](4.png)
+```bash
+sns.pointplot(x = "ram", y = "Price", data = df)
+```
+![gambar](5.png)
+pointplot mewakili hubungan antara ram dan harga
+ponsel yang memiliki ram 6.0 memiliki harga tertinggi (4000)
+ponsel yang memiliki ram 1,00 memiliki harga terendah (500)
+
 Kita gambarkan visualisasi heatmap untuk melihat sebarand data pada dataset ini.
 ```bash
 plt.figure(figsize=(12,8))
