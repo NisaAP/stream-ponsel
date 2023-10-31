@@ -100,6 +100,17 @@ cek detail informasi dari dataset ini
 ```bash
 df.describe()
 ```
+kita akan mengguanakan untuk subplot memvisualisasikan distribusi data dalam sebuah dataset 
+```bash
+plt.figure(figsize=(20,15))
+j = 1
+for i in df.iloc[:,:-1].columns:
+    plt.subplot(5,3,j)
+    sns.histplot(df[i], stat = "density", kde = True , color = "red")
+    j+=1
+plt.show()
+```
+![gambar](4.png)
 Kita gambarkan visualisasi heatmap untuk melihat sebarand data pada dataset ini.
 ```bash
 plt.figure(figsize=(12,8))
