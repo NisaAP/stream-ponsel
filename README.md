@@ -4,9 +4,7 @@
 ### Kelas : Pagi A
 
 ## Domain Proyek
-Di era Smartphone, para produsen ponsel seringkali dihadapkan pada situasi berapa harga Smartphone baru yang harus diluncurkan, sehingga menarik penjualan yang maksimal dan review yang positif. Analisis yang dilakukan dalam laporan ini dapat bermanfaat untuk menilai hal-hal tersebut.
-
-Selain itu, berdasarkan statistik dan hasil, analisis ini juga dapat digunakan oleh pelaku pasar yang ada untuk menilai ancaman pendatang baru di pasar. Berdasarkan analisis, perusahaan dapat menentukan kisaran optimal untuk meluncurkan produk dengan fitur terbaik yang diinginkan. 
+Di era Smartphone, para produsen ponsel seringkali dihadapkan pada situasi berapa harga Smartphone baru yang harus diluncurkan, sehingga menarik penjualan yang maksimal dan review yang positif. Analisis yang dilakukan dalam laporan ini dapat bermanfaat untuk menilai hal-hal tersebut. Berdasarkan analisis, perusahaan dapat menentukan kisaran optimal untuk meluncurkan produk dengan fitur terbaik yang diinginkan. 
 
 
 ## Business Understanding
@@ -14,9 +12,9 @@ Selain itu, berdasarkan statistik dan hasil, analisis ini juga dapat digunakan o
 Analisis ini digunakan untuk memprkirakan harga berdasarkan fitur yang ditentukan sehingga memudah produsen dalam menentukan harga ponsel.
 
 ### Problem Statements
-Kemungkinan kesalahan produsen dalam penentuan harga produk yang akan diluncurkan untuk mennghasilkan penjualan yang maksimal
+Kemungkinan kesalahan produsen dalam penentuan harga produk yang akan diluncurkan untuk menghasilkan penjualan yang maksimal
 ### Goals
-Mencari solusi untuk memudahkan orang orang untuk memperkirakan harga ponsel sesuai dengan fitur yang ada.
+Mencari solusi untuk memudahkan orang dalam memperkirakan harga ponsel sesuai dengan fitur yang ada.
  
 ### Solution statements
  - Pengembangan Platform untuk perkiraan Harga Ponsel Berbasis Web, Solusi pertama adalah mengembangkan platform pencarian harga apartment berbasis web yang mengintegrasikan data dari Kaggle untuk memberikan pengguna akses cepat dan mudah ke informasi tentang estimasi harga ponsel. Platform ini akan menyediakan antarmuka pengguna yang ramah, memungkinkan pengguna mencari harga ponsel berdasarkan kapasitas fitur tertentu seperti ram,resolusi,memori internal,battery,kamera depan, kamera belakang.
