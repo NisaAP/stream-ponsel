@@ -115,7 +115,8 @@ plt.show()
 sns.pointplot(x = "ram", y = "Price", data = df)
 ```
 ![gambar](5.png)
-pointplot mewakili hubungan antara ram dan harga
+
+Pointplot mewakili hubungan antara ram dan harga
 ponsel yang memiliki ram 6.0 memiliki harga tertinggi (4000)
 ponsel yang memiliki ram 1,00 memiliki harga terendah (500)
 
